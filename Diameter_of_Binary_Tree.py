@@ -8,7 +8,6 @@ class Solution:
     """
     biggest diameter is longest path in left subtree + longest path in right subtree
     """
-    
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         
         diameter = 0
