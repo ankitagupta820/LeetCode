@@ -27,3 +27,4 @@ class Solution:
         
         recurse(root)
         return diameter
+    
