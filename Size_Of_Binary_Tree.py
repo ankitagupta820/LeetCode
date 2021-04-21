@@ -16,8 +16,7 @@ def size(root: TreeNode):
         return 0  
     return size(root.left) + size(root.right) + 1
 
-    
-    
+     
 # Traverse and accumulate approach
 def size(root: TreeNode):
     size = 0
