@@ -3,10 +3,13 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-        
+  
+
 class Solution:
     """
-    biggest diameter is longest path in left subtree + longest path in right subtree
+    Biggest diameter is longest path in left subtree + longest path in right subtree.
+    Combines induction and accumulate templates. 
+    Uses induction for longest path, uses accumulation for longest diameter
     """
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         
