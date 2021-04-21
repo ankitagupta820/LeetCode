@@ -2,7 +2,6 @@
 Find the size of Binary tree i.e number of total nodes in the tree
 """
 
-
 class TreeNode:
     def __init__(self, val: int, left: TreeNode, right: TreeNode):
         self.val = val
